@@ -1,4 +1,6 @@
-import org.apache.spark.{SparkContext, SparkConf}
+package analysis
+
+import org.apache.spark.{SparkConf, SparkContext}
 
 object SimpleJob {
   def main(args: Array[String]): Unit = {

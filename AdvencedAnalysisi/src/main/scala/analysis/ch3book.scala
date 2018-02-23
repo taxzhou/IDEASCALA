@@ -1,11 +1,13 @@
+package analysis
+
+import org.apache.spark.broadcast.Broadcast
+import org.apache.spark.ml.recommendation.{ALS, ALSModel}
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
+
 import scala.collection.Map
 import scala.collection.mutable.ArrayBuffer
 import scala.util.Random
-import org.apache.spark.broadcast.Broadcast
-import org.apache.spark.ml.recommendation.ALSModel
-import org.apache.spark.ml.recommendation.ALS
-import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
-import org.apache.spark.sql.functions._
 
 
 object ch3book {
