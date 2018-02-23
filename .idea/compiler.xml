@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AdvencedAnalysisi" />
+        <module name="Spring" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="advancedAnalysisi" target="1.5" />
+      <module name="AdvencedAnalysisi" target="1.5" />
+      <module name="scala" target="1.5" />
+      <module name="spark" target="1.5" />
+      <module name="sparkadvancedAnalysisi" target="1.5" />
+      <module name="sparkJava" target="1.5" />
+      <module name="sparkscala" target="1.7" />
+      <module name="Spring" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
